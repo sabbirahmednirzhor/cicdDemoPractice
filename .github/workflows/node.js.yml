@@ -39,3 +39,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "nirzhor-cicd"
           heroku_email: "bsse0704@iit.du.ac.bd"
+          procfile: "web: node index.js"
